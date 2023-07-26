@@ -1,0 +1,518 @@
+@charset "UTF-8";
+header .btnFormSearch {
+  display: none;
+}
+header #btnSearch:checked ~ .btnFormSearch {
+  display: block;
+}
+header #btnSearch:checked ~ label > i {
+  position: absolute;
+  top: -8px;
+  left: 180px;
+  color: rgb(167, 86, 86);
+}
+header #btnSearch:checked ~ label:after {
+  display: none;
+}
+header #btnSearch:checked ~ a > i {
+  position: absolute;
+  top: -8px;
+  left: 199px;
+}
+header i {
+  color: rgba(255, 255, 255, 0.4745098039);
+  transform: scale(1.2);
+}
+header i:hover {
+  transition: 0.3s;
+  transform: scale(1.5);
+}
+header label:after {
+  content: "|";
+  position: absolute;
+  transform: scale(2.2);
+  top: -5px;
+  left: 30px;
+  color: rgba(255, 255, 255, 0.4745098039);
+}
+header .navBarLengh {
+  width: 100%;
+}
+header .navLogotip a:first-child {
+  font-family: "Nanum Myeongjo", serif;
+  font-size: 30px;
+  line-height: 15px;
+  letter-spacing: 1px;
+  color: #fff;
+}
+header .navLogotip a:last-child {
+  font-size: 13px;
+  color: #fff;
+}
+header .carouselBackground {
+  backdrop-filter: blur(1.5px);
+  background-color: rgba(70, 57, 57, 0.6);
+  background-size: contain;
+  width: 100%;
+  height: 100%;
+}
+header h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 65px;
+  color: #fff;
+}
+header h2 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  color: #fff;
+  font-size: 28px;
+  word-spacing: 5px;
+  position: relative;
+}
+header h2:after {
+  content: "";
+  position: absolute;
+  background-image: url(../img/123.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 72%;
+  height: 20px;
+  width: 15%;
+}
+header h2:before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/123.png);
+  transform: rotate(180deg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  top: 5px;
+  left: 13%;
+  height: 20px;
+  width: 15%;
+}
+header .blockText a:hover {
+  background-color: rgb(168, 104, 104);
+  color: #ffffff;
+  font-weight: bold;
+}
+header .blockText a {
+  color: rgba(255, 255, 255, 0.6980392157);
+  border: 1px solid rgb(128, 75, 75);
+  text-decoration: none;
+  color: rgba(255, 255, 255, 0.4862745098);
+  background-color: rgba(168, 104, 104, 0.473);
+  padding: 10px 25px;
+  font-weight: bold;
+}
+
+.service * {
+  font-family: "Nanum Myeongjo", serif;
+  color: #A3888C;
+}
+.service .cardBorder {
+  border-color: #A3888C;
+}
+.service .colBorder {
+  border-color: #A3888C;
+}
+.service .imgs2 {
+  border-radius: 40% 1% 40% 1%;
+}
+.service .imgs1 {
+  border-radius: 1% 40% 1% 40%;
+}
+
+.work {
+  padding-top: 100px;
+}
+.work * {
+  font-family: "Nanum Myeongjo", serif;
+}
+.work h4 {
+  color: #A3888C;
+  font-size: 56px;
+  position: relative;
+}
+.work h4:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #A3888C 0%, #A3888C 80%, rgba(255, 0, 0, 0) 80%);
+  color: #A3888C;
+  bottom: 0;
+  left: 0;
+}
+.work h4:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1px;
+  background: linear-gradient(to right, #A3888C 0%, #A3888C 65%, rgba(255, 0, 0, 0) 65%);
+  color: #A3888C;
+  bottom: -8px;
+  left: 0;
+}
+.work h4 + p {
+  font-size: 26px;
+  color: #848892;
+}
+.work p:last-child {
+  font-size: 17px;
+  color: #848892;
+}
+
+.prace h1,
+.service h1,
+.workFoto h1,
+.staff h1,
+.coment h1 {
+  letter-spacing: 3px;
+  font-family: "Nanum Myeongjo", serif;
+  color: #A3888C;
+  position: relative;
+  padding-top: 10%;
+  padding-bottom: 5%;
+  text-decoration: underline;
+}
+.prace h1:before,
+.service h1:before,
+.workFoto h1:before,
+.staff h1:before,
+.coment h1:before {
+  content: "";
+  position: absolute;
+  background-image: url(../img/321.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  height: 35%;
+  width: 35%;
+  top: 32%;
+  left: 45.2%;
+  z-index: 1;
+}
+.prace h1:after,
+.service h1:after,
+.workFoto h1:after,
+.staff h1:after,
+.coment h1:after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, #A3888C 40%, #A3888C 42%, rgba(255, 0, 0, 0) 62%);
+  color: #A3888C;
+  bottom: 25%;
+  left: 10%;
+}
+
+.coment h4 {
+  color: #A3888C;
+  font-family: "Nanum Myeongjo", serif;
+}
+.coment h6 {
+  font-family: "Nanum Myeongjo", serif;
+  line-height: 5px;
+  color: #ADADAD;
+}
+.coment p {
+  color: #A9A9A9;
+  font-family: "Nanum Myeongjo", serif;
+}
+.coment .img {
+  position: relative;
+}
+.coment .img:after {
+  content: "";
+  position: absolute;
+  top: 95%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: rgb(255, 255, 255);
+}
+.coment .img::before {
+  content: "♡";
+  position: absolute;
+  font-size: 44px;
+  top: 82%;
+  left: 50.8%;
+  transform: translate(-50%, -50%);
+  width: 40px;
+  height: 40px;
+  z-index: 1;
+  color: red;
+}
+
+.prace .imgHone {
+  margin-top: 150px;
+  padding-bottom: 50px;
+  background-image: url(../img/fon.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.prace h1 {
+  color: #fff;
+}
+.prace h1:before {
+  background-image: url(../img/321_2.png);
+}
+.prace h1:after {
+  background: linear-gradient(to right, rgba(255, 0, 0, 0) 0%, rgba(255, 0, 0, 0) 15%, #fff 40%, #fff 42%, rgba(255, 0, 0, 0) 62%);
+}
+.prace .rowPosition {
+  top: -70px;
+  left: 0%;
+}
+
+.special {
+  font-family: "Nanum Myeongjo", serif;
+}
+.special h1 {
+  text-decoration: underline;
+}
+.special .fon {
+  margin-top: 150px;
+  padding-bottom: 50px;
+  background-color: rgba(163, 136, 140, 0.0549019608);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.special ul {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: self-start;
+  align-content: space-between;
+  width: 80%;
+  height: 100px;
+  color: #525766;
+  line-height: 30px;
+}
+.special .liana {
+  position: relative;
+}
+.special h1:after,
+.special h1:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-size: contain;
+  background-repeat: no-repeat;
+  opacity: 50%;
+  color: #A3888C;
+  z-index: 1;
+  opacity: 20%;
+}
+.special h1:after {
+  background-image: url(../img/liana.png);
+  bottom: 0%;
+  left: 0%;
+  transform: rotate(180deg);
+}
+.special h1:before {
+  background-image: url(../img/liana.png);
+  bottom: 0;
+  left: 0;
+}
+
+footer {
+  padding: 30px 0;
+  margin-bottom: 35px;
+  margin-top: 150px;
+  background-color: rgba(163, 136, 140, 0.0549019608);
+  font-family: "Nanum Myeongjo", serif;
+  color: rgba(82, 87, 102, 0.7529411765);
+}
+footer .logo a {
+  text-decoration: none;
+}
+footer .logo a:first-child {
+  font-size: 28px;
+  color: #000;
+}
+footer .logo a + a {
+  color: #ED1E79;
+  font-size: 12px;
+}
+footer .mediaLink a {
+  color: #000;
+  margin-left: 10%;
+}
+footer .mediaLink a:first-child {
+  margin-left: 0;
+}
+footer .mediaLink i {
+  margin-top: 15px;
+  font-size: 20px;
+}
+footer .mediaLink i:hover {
+  transform: scale(1.6);
+  transition: 0.5s;
+}
+footer h3 {
+  color: #000;
+}
+footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+footer ul li a {
+  color: rgba(82, 87, 102, 0.7529411765);
+}
+footer ul i {
+  font-size: 14px;
+  padding-top: 20px;
+  padding-right: 10px;
+  color: #A3888C;
+}
+footer ul a {
+  text-decoration: none;
+  color: #525766;
+}
+footer .infoLink li {
+  margin-top: 23px;
+}
+footer .infoLink a:hover {
+  color: #38292b;
+  transition: 0.5s;
+}
+footer button {
+  font-size: 42px;
+}
+footer .pBlock p {
+  width: 80%;
+}
+
+@media screen and (max-width: 1400px) {
+  header h1 {
+    font-size: 50px;
+  }
+  header h2:after {
+    top: 5px;
+    left: 80%;
+  }
+  header h2:before {
+    top: 5px;
+    left: 5%;
+  }
+}
+@media screen and (max-width: 1200px) {
+  header h1 {
+    font-size: 40px;
+  }
+  header h2 {
+    font-size: 24px;
+  }
+  header h2:before {
+    top: 0px;
+  }
+  header .filter {
+    backdrop-filter: blur(22px);
+  }
+  header .btnFormSearch {
+    display: flex;
+    width: 30%;
+    margin-left: 8%;
+  }
+  header .fa-magnifying-glass {
+    display: none;
+  }
+  header .fa-suitcase {
+    position: relative;
+    left: 320px;
+  }
+  header label:after {
+    content: "";
+  }
+}
+@media screen and (max-width: 992px) {
+  header h1 {
+    font-size: 32px;
+  }
+  header h2 {
+    font-size: 18px;
+  }
+  header h2:before {
+    top: -4px;
+  }
+  header .navLogotip a:first-child {
+    font-size: 20px;
+    line-height: 15px;
+    line-height: 5px;
+  }
+  header .navLogotip a:last-child {
+    font-size: 9px;
+  }
+  header .fa-suitcase {
+    position: relative;
+    left: 240px;
+  }
+  .coment .img::before {
+    top: 82%;
+    left: 51.5%;
+    transform: translate(-50%, -50%);
+  }
+}
+@media screen and (max-width: 768px) {
+  header h1 {
+    font-size: 20px;
+  }
+  header h2 {
+    padding-top: 40px;
+    font-size: 12px;
+  }
+  header h2:after {
+    top: 78%;
+    left: 85%;
+  }
+  header h2:before {
+    top: 55%;
+    left: 0%;
+  }
+  header .fa-suitcase {
+    position: relative;
+    left: 170px;
+  }
+  header .nav-link {
+    padding: 2px 0;
+  }
+  .service h3 {
+    font-size: 18px;
+  }
+  .coment .img::before {
+    top: 82%;
+    left: 52.5%;
+    transform: translate(-50%, -50%);
+  }
+  .special ul {
+    align-items: center;
+    align-content: center;
+    height: 200px;
+    line-height: 25px;
+    list-style: none;
+    padding-left: 0;
+  }
+  .prace .rowPosition {
+    top: -10px;
+    left: 0%;
+  }
+}
+@media screen and (max-width: 450px) {
+  header .rounded-pill-new {
+    padding: 10px !important;
+  }
+  header .btnFormSearch {
+    width: 50%;
+  }
+  header i:before {
+    margin-left: 150%;
+    color: #000;
+  }
+}
+
+/*# sourceMappingURL=style.css.map */

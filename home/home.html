@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <div id="carouselExampleControls" class="carousel slide position-relative" data-bs-ride="carousel">
+                <nav class="navbar navbar-expand-xl bg-body-tertiary position-absolute z-2 navBarLengh bg-opacity-10 navbar-dark">
+                    <div class="container-fluid">
+                        <div class="flex-column d-flex align-items-center navLogotip aa offset-xxl-1">     
+                            <a class="navbar-brand" href="#">Carolina’s Hall </a>
+                            <a class="navbar-brand" href="#">“The Place of Luxe and Glamour”</a>
+                        </div>
+                        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+
+                        <div class="collapse navbar-collapse filter" id="navbarSupportedContent">
+                            <ul class="navbar-nav me-auto mb-2 mb-lg-0 offset-1">
+                                <li class="nav-item ">
+                                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../services/services.html">Services</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../planner/planner.html">Planner</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../pricing/pricing.html">Pricing</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" href="../contact-us/contact-us.html">Contact Us</a>
+                                </li>
+                            </ul>
+                            <form class="d-flex position-relative" role="search">
+                                <input class="d-none" type="checkbox" name="btnCheckBox" id="btnSearch">
+                                <label class="btnSearch position-absolute top-50 start-25 translate-middle d-flex " for="btnSearch">
+                                    <i class="fa-solid fa-magnifying-glass"></i>
+                                </label>
+                                <input class="form-control btnFormSearch" type="search" placeholder="Search" aria-label="Search">
+                                <a class="ms-5 position-absolute top-50 start-25 translate-middle" href="#">
+                                    <i class="fa-solid fa-suitcase"></i>
+                                </a>
+                            </form>
+                            <div class="offset-2"></div>
+                        </div>
+                    </div>
+                  </nav>
+                <div class="carousel-inner position-relative carouselBlock">
+                    <div class="position-absolute top-50 start-50 translate-middle z-1 text-center blockText">
+                        <h2>Welcome To Colina</h2>
+                        <h1>Making Memory That</h1>
+                        <h1 class="mb-5">Last Forever</h1>
+                        <a class="rounded-pill rounded-pill-new" href="#">Plan Your Event</a>
+                    </div>
+                    <div class="carousel-item active ">
+                        <div class="position-absolute carouselBackground"></div>
+                        <img src="../img/4.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="position-absolute carouselBackground"></div>
+                        <img src="../img/3.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <div class="position-absolute carouselBackground"></div>
+                        <img src="../img/1.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Предыдущий</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"  data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Следующий</span>
+                </button>
+            </div>
+        </div>
+    </header>
+    <section class="service">
+        <div class="container">
+            <h1 class="text-center mt-5 botLine">What We Can Do</h1>
+            <div class="row d-xxl-flex justify-content-center">
+                <div class="col-4 m-1 colBorder free">
+                    <div class="card imgs2" >
+                        <img src="../img/free.png" class="card-img-top p-3 imgs2" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text text-start">
+                                Birthday Party
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 m-1 colBorder two">
+                    <div class="card imgs1" >
+                        <img src="../img/two.png" class="card-img-top p-3 imgs1" alt="...">
+                        <div class="card-body">
+                            <h3 class="card-text text-end">
+                                Wedding
+                            </h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 m-1 colBorder one">
+                    <div class="card imgs1" >
+                        <div class="card-body">
+                            <h3 class="card-text text-start">
+                                Event Planing
+                            </h3>
+                        </div>
+                        <img src="../img/one.png" class="card-img-top p-3 imgs1" alt="...">
+                    </div>
+                </div>
+                <div class="col-4 m-1 colBorder align-self-end four">
+                    <div class="card imgs2" >
+                        <div class="card-body">
+                            <h3 class="card-text text-end">
+                                Baby Shower
+                            </h3>
+                        </div>
+                        <img src="../img/four.png" class="card-img-top p-3 imgs2" alt="...">
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <section class="work">
+        <div class="container">
+            <div class="card mb-3 shadow-lg p-3 mb-5 bg-white rounded">
+                <div class="row g-0">
+                    <div class="col-md-6">
+                        <img src="../img/f5.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-6">
+                        <div class="card-body">
+                            <h4 class="card-title">Your Sucessful Event is Our Job.</h4>
+                            <p class="card-text">
+                                Carolina's Hall welcomes everyone who is looking for a luxury and glamorous experience
+                            </p>
+                            <p class="card-text">
+                                The hall offer packages based on the client's needs and budget. Our services accommodates a capacity of 70 guests including children. The goal of opening a luxury space was to help our clients to make their event experiences unforgettable with the best packages in the area and state. 
+                            </p>
+                        </div>
+                    </div>
+                </div>
+              </div>
+        </div>
+    </section>
+    <section class="workFoto">
+        <div class="container">
+            <h1 class="text-center mt-5 botLine">Our Amazing Work</h1>
+            <div class="row shadow p-3 mb-5 bg-white rounded">
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-12 align-self-start">
+                            <img class="img-fluid" src="../img/11.jpg" alt="">
+                        </div>
+                        <div class="col-12 align-self-end mt-3">
+                            <img class="img-fluid" src="../img/44.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+                <div class="col-4 align-self-start">
+                    <img class="img-fluid" src="../img/33.jpg" alt="">
+                </div>
+                <div class="col-4">
+                    <div class="row">
+                        <div class="col-12 align-self-start">
+                            <img class="img-fluid " src="../img/66.jpg" alt="">
+                        </div>
+                        <div class="col-12 align-self-end mt-3">
+                            <img class="img-fluid" src="../img/55.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="staff">
+        <div class="container">
+            <h1 class="text-center mt-5 botLine">Meet Our Planners</h1>
+            <div class="row">
+                <div class="col-sm-6 col-lg-3 shadow p-2 mb-5 bg-white rounded">
+                    <div class="card">
+                        <img src="../img/alex.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Alex Emily</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Planner
+                                </small>
+                            </p>
+                            <p class="card-text text-center">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                                <i class="fa-solid fa-info ps-3"></i>
+                                <i class="fa-sharp fa-solid fa-p ps-3"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 shadow p-2 mb-5 bg-white rounded">
+                    <div class="card">
+                        <img src="../img/kola.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Kyla Olsen</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Makeup Artist
+                                </small>
+                            </p>
+                            <p class="card-text text-center">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                                <i class="fa-solid fa-info ps-3"></i>
+                                <i class="fa-sharp fa-solid fa-p ps-3"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 shadow p-2 mb-5 bg-white rounded">
+                    <div class="card">
+                        <img src="../img/liza.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Elizabeth Anny</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Photogapher
+                                </small>
+                            </p>
+                            <p class="card-text text-center">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                                <i class="fa-solid fa-info ps-3"></i>
+                                <i class="fa-sharp fa-solid fa-p ps-3"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-6 col-lg-3 shadow p-2 mb-5 bg-white rounded">
+                    <div class="card">
+                        <img src="../img/joa.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title text-center">Joan Romero</h5>
+                            <p class="card-text text-center">
+                                <small class="text-muted">
+                                    Makeup Artist
+                                </small>
+                            </p>
+                            <p class="card-text text-center">
+                                <i class="fa-brands fa-facebook"></i>
+                                <i class="fa-brands fa-twitter ps-3"></i>
+                                <i class="fa-solid fa-info ps-3"></i>
+                                <i class="fa-sharp fa-solid fa-p ps-3"></i>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            
+        </div>
+    </section>
+    <section class="coment">
+        <div class="container">
+            <h1 class="text-center mt-5 botLine aaa">What Our Clients Says</h1>
+            <div class="row">
+                <div class="col-6">
+                    <div class="img">
+                        <img class="img-fluid text-center mx-auto d-block shadow p-3 mb-4 bg-white rounded" src="../img/coment1.png" alt="" >
+                    </div>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida nullam lectus at scelerisque pharetra, egestas. Mi  felis dignissim ultrices pretium semper enim.
+                    </p>
+                    <h4 class="text-center">Aliza Anne</h4>
+                    <h6 class="text-center">Wedding Photographer</h6>
+                </div>
+                <div class="col-6">
+                    <div class="img">
+                        <img class="img-fluid text-center mx-auto d-block shadow p-3 mb-4 bg-white rounded" src="../img/coment2.png" alt="" >
+                    </div>
+                    <p class="text-center">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida nullam lectus at scelerisque pharetra, egestas. Mi  felis dignissim ultrices pretium semper enim.
+                    </p>
+                    <h4 class="text-center">Aliza Anne</h4>
+                    <h6 class="text-center">Wedding Photographer</h6>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="prace">
+        <div class="container ">
+            <div class="imgHone">
+                <h1 class="text-center mt-5 botLine">Our Perfect Pricing Plan</h1>
+            </div>
+            <div class="row d-flex justify-content-around position-relative rowPosition">
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card text-center">
+                        <img src="../img/basic.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">BASIC PACKAGE</h5>
+                            <h4>$1,500</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Main Station Decor</li>
+                                <li class="list-group-item">Centerpieces</li>
+                                <li class="list-group-item">Table Cloths</li>
+                                <li class="list-group-item">Table Numbers</li>
+                                <li class="list-group-item">Charger Plates</li>
+                                <li class="list-group-item">Napkins</li>
+                                <li class="list-group-item">Isle for welcome sign</li>
+                                <li class="list-group-item">Buffet Serving Sets</li>
+                                <li class="list-group-item">Sweet Tray Sets</li>
+                                <li class="list-group-item">2 Waitresses</li>
+                                <li class="list-group-item">1 Hostess</li>
+                                <li class="list-group-item">1 Bartender</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card text-center">
+                        <img src="../img/silver.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">SILVER PACKAGE</h5>
+                            <h4>$2,000</h4>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Main Station Decor</li>
+                                <li class="list-group-item">Centerpieces</li>
+                                <li class="list-group-item">Table Cloths</li>
+                                <li class="list-group-item">Table Numbers</li>
+                                <li class="list-group-item">Charger Plates</li>
+                                <li class="list-group-item">Napkins</li>
+                                <li class="list-group-item">Isle for welcome sign</li>
+                                <li class="list-group-item">Buffet Serving Sets</li>
+                                <li class="list-group-item">Sweet Tray Sets</li>
+                                <li class="list-group-item">2 Waitresses</li>
+                                <li class="list-group-item">1 Hostess</li>
+                                <li class="list-group-item">1 Bartender</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4 col-lg-3">
+                    <div class="card text-center">
+                        <img src="../img/gold.png" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h4>GOLD PACKAGE</h4>
+                            <h5 class="card-title">$3,500</h5>
+                            <ul class="list-group list-group-flush">
+                                <li class="list-group-item">Main Station Decor</li>
+                                <li class="list-group-item">Centerpieces</li>
+                                <li class="list-group-item">Table Cloths</li>
+                                <li class="list-group-item">Table Numbers</li>
+                                <li class="list-group-item">Charger Plates</li>
+                                <li class="list-group-item">Napkins</li>
+                                <li class="list-group-item">Isle for welcome sign</li>
+                                <li class="list-group-item">Buffet Serving Sets</li>
+                                <li class="list-group-item">Sweet Tray Sets</li>
+                                <li class="list-group-item">2 Waitresses</li>
+                                <li class="list-group-item">1 Hostess</li>
+                                <li class="list-group-item">1 Bartender</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="special">
+        <div class="container">
+            <div class="fon text-center d-flex flex-column align-items-center liana shadow-sm p-3 mb-5 bg-white rounded">
+                <h1 class="py-5">Special Events from Tuesday to Friday</h1>
+                <ul>
+                    <li>Floral Design Class</li>
+                    <li>Balloon Class </li>
+                    <li>Zumba Class</li>
+                    <li>Corporate Events </li>
+                    <li>Chambers Meetings/Events</li>
+                    <li>Wine Tasting and Canvas Event</li>
+                    <li>Fundraising Events </li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-6 col-lg-3 pBlock">
+                    <div class="logo d-flex flex-column mb-3">
+                        <a class="link" href="#">Carolina’s Hall </a>
+                        <a class="link" href="#">“The Place of Luxe and Glamour”</a>
+                    </div>
+                    <p>
+                        Welcome and  open yourself to your
+                        truest love this year with us! With the
+                        Release Process
+                    </p>
+                    <div class="mediaLink">
+                        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="#"><i class="fa-brands fa-tiktok"></i></a>
+                    </div>
+                </div>
+                <div class="col-6 col-lg-3 infoLink text-center text-lg-start">
+                    <h3>Information</h3>
+                    <ul>
+                        <li><a class="link" href="#">Home</a></li>
+                        <li><a class="link" href="../planner/planner.html">Planner</a></li>
+                        <li><a class="link" href="../pricing/pricing.html">Pricing</a></li>
+                        <li><a class="link" href="../contact-us/contact-us.html">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 mt-5 mt-lg-0 pBlock">
+                    <h3>Contact</h3>
+                    <p>
+                        Would you have any enquired.Please
+                        feel free to contact us
+                    </p>
+                    <ul>
+                        <li><i class="fa-solid fa-envelope"></i>info@colinashall..com</li>
+                        <li><i class="fa-solid fa-phone"></i>+128-23658-2315</li>
+                        <li><i class="fa-solid fa-location-dot"></i>New York-1075 Fires Evenue</li>
+                    </ul>
+                </div>
+                <div class="col-6 col-lg-3 mt-5  mt-lg-0 text-center text-lg-start">
+                    <h3>Subscribtion</h3>
+                    <div class="input-group">
+                        <input type="email" class="form-control" placeholder="Enter email address" aria-label="Enter email address" aria-describedby="button-addon2">
+                        <button class="btn btn-outline-secondary" type="button" id="button-addon2">&rarr;</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-geWF76RCwLtnZ8qwWowPQNguL3RmwHVBC9FhGdlKrxdiJJigb/j/68SIy3Te4Bkz" crossorigin="anonymous"></script>
+</body>
+</html>

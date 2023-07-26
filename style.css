@@ -1,0 +1,290 @@
+*,
+* a {
+    font-family: "Nanum Myeongjo", serif;
+    color: #fff;
+    text-decoration: none;
+}
+.container-padding {
+    padding: 0;
+}
+.intro {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.introMedia video {
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    object-fit: cover;
+    transform: translate(-50%, -50%);
+}
+
+.introMedia::before {
+    content: '';
+    position: absolute;
+    z-index: 2;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(2, 2, 5, 0.5);
+}
+.introContent {
+    z-index: 3;
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+header .logotip {
+    padding-top: 3%;
+}
+header .logotip a:first-child {
+    font-size: 80px;
+    line-height: 45px;
+    letter-spacing: 1px;
+  }
+header .logotip a:last-child {
+    font-size: 33px;
+}
+
+header .experience h3,
+header .price h3,
+header .team h3 {
+    font-weight: bold;
+    font-size: 35px;
+    color: #A3888C;
+    text-shadow: 1px 2px 1px #fff;
+}
+header .experience p,
+header .price p,
+header .team p {
+    font-weight: 400;
+    font-size: 21px;
+    line-height: 35px;
+    font-family: 'Manrope', sans-serif;
+}
+header .experience,
+header .price,
+header .team{
+    position: absolute;
+    width: 30%;
+}
+header .experience {
+    top: 30%;
+    left: 30%;
+    animation: animationExperience 3s;
+}
+header .team {
+    top: 45%;
+    right: 10%;
+    animation: animationTeam 6s; 
+}
+header .price {
+    bottom: 25%;
+    left: 30%;
+    animation: animationPrice 9s;
+}
+@keyframes animationExperience {
+    0% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes animationTeam {
+    0% {
+        transform: scale(0);
+    }
+    50% {
+        transform: scale(0);
+    }
+    80% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+@keyframes animationPrice {
+    0% {
+        transform: scale(0);
+    }
+    70% {
+        transform: scale(0);
+    }
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+header .intro > a {
+    color: #e4d6d6;
+    font-size: 20px;
+    bottom: 10%;
+    right: 50%;
+    transform: translate(50%, -50%);
+    padding: 15px 35px;
+    border-radius: 50px;
+    background-color: #a3888c56;
+    box-shadow: 1px 2px 5px 2px #00000069, inset 1px 2px 5px 2px #00000069;
+}
+header .intro > a:hover {
+    color: #ffffff;
+    background-color: #a3888c;
+}
+header .experience span,
+header .price span,
+header .team span {
+    color: #ffffffd5;
+    align-self: center;
+    transform: scale(4);
+    margin-right: 15%;
+    padding: 5px;
+    border: 1px solid #A3888C;
+    border-radius: 50%;
+}
+
+
+
+@media screen and (max-width: 1200px) {
+    header .experience span,
+    header .price span,
+    header .team span {
+        transform: scale(3);
+    }
+    header .experience h3,
+    header .price h3,
+    header .team h3 {
+        font-size: 25px;
+        text-shadow: 1px 1px 1px #ffffff;
+    }
+    header .experience p,
+    header .price p,
+    header .team p {
+        font-size: 18px;
+    }   
+}
+@media screen and (max-width: 992px) {
+    header .price {
+        bottom: 20%;
+    }
+    header .intro > a  {
+        bottom: 5%;
+    }
+    header .experience span,
+    header .price span,
+    header .team span {
+    margin-right: 20%;
+}
+}
+@media screen and (max-width: 768px) {
+    header .experience span,
+    header .price span,
+    header .team span {
+        transform: scale(2.5);
+    }
+    header .experience h3,
+    header .price h3,
+    header .team h3 {
+        font-size: 16px;
+    }
+    header .experience p,
+    header .price p,
+    header .team p {
+        font-size: 14px;
+        line-height: 20px;
+    }
+    header .price {
+        bottom: 26%;
+    }
+    header .logotip {
+        padding-top: 8%;
+    }     
+}
+@media screen and (max-width: 576px) {
+    header .log1 {
+        font-size: 48px !important;
+    }
+    header .log2 {
+        font-size: 15px !important;
+    }
+    header .experience,
+    header .price,
+    header .team{
+        width: 80%;
+    }
+    header .experience {
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    header .team {
+        left: 50%;
+        transform: translate(-50%,-25%);
+    }
+    header .price {
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    header .experience h3,
+    header .price h3,
+    header .team h3 {
+        font-size: 15px;
+    }
+    header .experience p,
+    header .price p,
+    header .team p {
+        font-size: 14px;
+        line-height: 20px;
+    }  
+    header .intro > a {
+        font-size: 18px;
+    }
+    header .experience span,
+    header .price span,
+    header .team span {
+    margin-right: 15%;
+    }
+    @keyframes animationExperience {
+        0% {
+            transform: scale(0) translate(-50%,-50%);
+        }
+        100% {
+            transform: scale(1) translate(-50%,-50%);
+        }
+    }
+    @keyframes animationTeam {
+        0% {
+            transform: scale(0) translate(-50%,-25%);
+        }
+        60% {
+            transform: scale(0) translate(-50%,-25%);
+        }
+        90% {
+            transform: scale(1) translate(-50%,-25%);
+        }
+        100% {
+            transform: scale(1) translate(-50%,-25%);
+        }
+    }
+    @keyframes animationPrice {
+        0% {
+            transform: scale(0) translate(-50%,-50%);
+        }
+        80% {
+            transform: scale(0) translate(-50%,-50%);
+        }
+        90% {
+            transform: scale(1) translate(-50%,-50%);
+        }
+        100% {
+            transform: scale(1) translate(-50%,-50%);
+        }
+    }  
+}
